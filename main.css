@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    background-color: aquamarine;
+    height: 500px;
+    margin-top: 0;
+    border-bottom-left-radius: 489px;
+    border-bottom-right-radius: 490px;
+}
+
+.title h3 {
+    margin-top: 0;
+}
+
+h3 {
+    font-size: larger;
+    padding-left: 100px;
+    padding-top: 25px;
+}
+
+h4 {
+    font-size: x-large;
+    padding-left: 687px;
+    padding-top: 90px;
+}
+
+.about p {
+    padding-left: 454px;
+    padding-top: 0px;
+    font-size: large;
+    font-variant: petite-caps;
+    color: black;
+}
+
+h6 {
+    padding-left: 655px;
+    padding-top: 20px;
+    font-size: xx-large;
+    font-style: oblique;
+}
