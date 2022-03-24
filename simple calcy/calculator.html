@@ -4,25 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>calculator</title>
+    <link rel="stylesheet" href="calculator.css">
 </head>
 <body>
-    <div id="back">
-        <div id="dbtn">
-            <button id="btn" onclick="start()">start</button>
-            <button id="btn" onclick="stop()">stop</button>
+    <div class="contanier">
+        <div class="calculator">
+            <input type="text" placeholder="00" id="input-screen">
+            <button onclick="clear()">CL</button>
+            <button onclick="del()">DEL</button>
+            <button onclick="display('%')">%</button>
+            <button onclick="display('/')">/</button>
+            <button onclick="display('7')">7</button>
+            <button onclick="display('8')">8</button>
+            <button onclick="display('9')">9</button>
+            <button onclick="display('*')">*</button>
+            <button onclick="display('4')">4</button>
+            <button onclick="display('5')">5</button>
+            <button onclick="display('6')">6</button>
+            <button onclick="display('-')">-</button>
+            <button onclick="display('1')">1</button>
+            <button onclick="display('2')">2</button>
+            <button onclick="display('3')">3</button>
+            <button onclick="display('+')">+</button>
+            <button onclick="display('.')">.</button>
+            <button onclick="display('0')">0</button>
+            <button onclick="calculate()" class="equal">=</button>
         </div>
     </div>
-    <div id="road">
-    <img src="c3.png" id="img" >
+    <script src="calculator.js"></script>
 
-
-    </div>
-
-
-
-    <script src="ak.js"></script>
-    
 </body>
 </html>
