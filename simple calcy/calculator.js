@@ -1,19 +1,23 @@
-m=0;
-var y;
-function start()
-{
-  y=setInterval(run,10);
+let outputScreen = document.getElementById("input-screen");
+        function display(num){
+            outputScreen.value += num;
+        
+        }
+        function calculate(){
+            try{
+                outputScreen.value = eval(outputScreen.value);
+        
+            }
+            catch(err)
+            {
+             alert("Invalid")   
+            }
+        }
+        function clear(){
+            outputScreen.value = "";
+        }
+        function del(){
+            outputScreen.value = outputScreen.value.slice(0,-2);
+        }
 
-  function run()
-  {
-   m+=5;
-    var x=document.getElementById("img");
-    x.style.marginLeft=m+'px';
-  }
-
-
-}
-function stop()
-{
-    clearInterval(y)
-}
+ 
