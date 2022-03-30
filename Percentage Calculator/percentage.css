@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(192, 233, 233);
+    opacity: 0.7;
+}
+
+.page {
+    /* background-color: aquamarine;
+    border: 2px solid green; */
+    width: 400px;
+    height: 200px;
+    margin-top: 300px;
+    margin-left: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+
+h6 {
+    margin-left: 80px;
+    font-size: 20px;
+}
+
+h5 {
+    margin-left: 80px;
+    font-size: 20px;
+}
+
+#b1 {
+    box-shadow: 5px 10px;
+}
+
+#b2 {
+    box-shadow: 5px 10px;
+}
+
+#b3 {
+    box-shadow: 5px 10px;
+}
